@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNC_Coffee</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color: #f6f5fb">
+    <!--cabeçalho  -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffff">
+      <div class="container-fluid">
+        <img
+          src="imagens/Logo_coffee.svg"
+          alt="logo"
+          width="50"
+          class="d-inline-block align-text-top"
+        />
+
+        <!-- conteiner apresentação do site  -->
+        <div class="collapse navbar-collapse" id="pedido">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Dnc Coffee</a
+              >
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link active" id="modal" href="#"
+                >Atendimento</a>
+            </li>
+          </ul>
+          <!-- area de pedido -->
+          <a href="" class="btn btn-light rounded-pill ms-auto fw-bold"
+            >Fazer pedido</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- imagem centro  -->
+    <main class="card-central">
+      <img src="imagens/cafe.svg" width="100%" alt="card-central" />
+    </main>
+    <!-- Cards de Produtos -->
+    <section class="card-group mt-4">
+      <article class="card m-3" style="width: 18rem">
+        <img src="imagens/100_arabica.svg" class="card-img-top" alt="arabica" />
+        <div class="card-product" style="text-align: center">
+          <p class="card-text" style="margin-top: 10px">
+            Nossa loja de café se encontra em um lugar, 100% fictício, porém
+            caso se sinta interessado pode vir tomar um café conosco em nossa
+            sede em São José dos Campos.
+          </p>
+
+          <button class="comprar" type="button" class="btn" style="background: #2a3342;
+              color: white; width:180px; margin-top: 1px; margin-bottom: 20px; border-radius: 10px;">COMPRAR AGORA</button>
+        </div>
+      </article>
+
+      <article class="card m-3" style="width: 18rem">
+        <img src="imagens/xicara_cafe.svg" class="card-img-top" alt="xicara" />
+        <div class="card-product" style="text-align: center">
+          <p class="card-text" style="margin-top: 10px">
+            Nossa casa de café é a melhor da região, aqui você tem tudo que
+            precisa, uma boa conversar, bons amigos e um ambiente sem igual.
+            Aproveite, pois Melhor que a DNC não existe!
+          </p>
+
+          <button class="comprar" type="button" class="btn" style="background:#2a3342; color: white; width: 190px; margin-top: 2px; border-radius: 10px;">
+            COMPRAR AGORA</button>
+        </div>
+      </article>
+
+      <article class="card m-3" style="width: 18rem">
+        <img src="imagens/grao_cafe.svg" class="card-img-top" alt="grao" />
+        <div class="card-product" style="text-align: center">
+          <p class="card-text" style="margin-top: 10px">
+            Por que a DNC? Porque podem contar sempre com um serviço genuíno,
+            uma atmosfera acolhedora e uma incrível xícara de café, torrado por
+            especialistas e preparado de forma enriquecedora.
+          </p>
+
+          <button class="comprar" type="button" class="btn" style="background: #2a3342;
+              color: white; width: 190px; margin-top: 2px; margin-bottom: 0px; border-radius: 10px;">
+            COMPRAR AGORA</button>
+        </div>
+      </article>
+
+      <article class="card m-3" style="width: 20rem">
+        <img   src="imagens/cafe_derram.svg" class="card-img-top" alt="vapor" />
+        <div class="card-product" style="text-align: center">
+          <p class="card-text" style="margin-top: 10px">
+            A escola especialista em formar talentos, com foco em
+            empregabilidade, migração de carreira e aumento de performance.
+          </p>
+          
+          <button class="comprar" type="button" class="btn" style="background: #2a3342;
+              color: white; width:190px; margin-top: 50px; margin-bottom:0px; border-radius: 10px;">
+            COMPRAR AGORA </button>
+        </div>
+      </article>
+
+    </section>
+            
+          <!-- Modal Atendimento -->
+        <div id="modalLugar"hidden>
+          <div class="modal-dialog modal-dialog-scrollable">
+                  
+          </div>   
+        </div> 
+      
+      
+
+    <script src="./script.js"></script>
+  </body>
+</html>
